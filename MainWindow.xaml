@@ -17,13 +17,6 @@
         <Border BorderThickness="5">
             <StackPanel Grid.Row="0"
                         Orientation="Horizontal">
-                <!--<Button x:Name="AssignNativeWindow"
-                        Content="Assign Native Window"
-                        Click="AssignNativeWindow_Click" />
-                <Border BorderThickness="10" />
-                <Button x:Name="ReleaseNativeWindow"
-                        Content="Release Native Window"
-                        Click="ReleaseNativeWindow_Click" />-->
             </StackPanel>
         </Border>
         <WV:WebView2 Grid.Row="1"
