@@ -21,6 +21,14 @@
         </Border>
         <WV:WebView2 Grid.Row="1"
                      x:Name="WebView"
-                     Source="https://www.google.com/search?q=webview2" CoreWebView2InitializationCompleted="WebView_CoreWebView2InitializationCompleted" />
+                     Source="https://www.google.com/search?q=webview2"
+                     CoreWebView2InitializationCompleted="WebView_CoreWebView2InitializationCompleted">
+            <WV:WebView2.CreationProperties>
+                <WV:CoreWebView2CreationProperties BrowserExecutableFolder="C:\Program Files (x86)\Microsoft\Edge Dev\Application\91.0.845.2" />
+            </WV:WebView2.CreationProperties>
+            <!--<WV:WebView2.CreationProperties>
+                <WV:CoreWebView2CreationProperties BrowserExecutableFolder="C:\Program Files (x86)\Microsoft\Edge\Application\89.0.774.75" />
+            </WV:WebView2.CreationProperties>-->
+        </WV:WebView2>
     </Grid>
 </Window>
